@@ -1,0 +1,27 @@
+1613359565364	geckodriver	INFO	Listening on 127.0.0.1:60708
+1613359568377	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\TANGLI~1\\AppData\\Local\\Temp\\rust_mozprofileSyoO1d"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613359571859	Marionette	INFO	Listening on port 60721
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613359572156	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613359572180	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: https://dss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/js/components/bbox/bbox-view-322dff347c.js, line 2: TypeError: titleList is null
+1613359575791	Marionette	INFO	Stopped listening on port 60721
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1613359576890	geckodriver	INFO	Listening on 127.0.0.1:60812
+1613359579900	mozrunner::runner	INFO	Running command: "C:\\Program Files (x86)\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\TANGLI~1\\AppData\\Local\\Temp\\rust_mozprofileg2Vslg"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1613359583320	Marionette	INFO	Listening on port 60827
+1613359583634	Marionette	WARN	TLS certificate errors will be ignored for this session
+1613359583657	Marionette	ERROR	[15] No reply from Marionette:Register
+JavaScript error: http://www.huihui.cn/deals/channel.json?callback=discountCallback, line 1: SyntaxError: expected expression, got '<'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: , line 0: NotFoundError: No such JSWindowActor 'MarionetteEvents'
+JavaScript error: resource:///actors/PluginChild.jsm, line 59: TypeError: this.contentWindow is null
+1613359587240	Marionette	INFO	Stopped listening on port 60827
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
