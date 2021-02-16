@@ -25,7 +25,7 @@ class MyTest3(unittest.TestCase):
 if __name__=="__main__":
     
     testunit=unittest.TestSuite()
-    testunit.addTest(MyTest("test_baidu"))
+    testunit.addTest(MyTest3("test_baidu"))
     fp=open('D:\\eclipse\\eclipse-workspace\\unittestdemo4\\test_project\\report\\result.html','wb')
     runner=HTMLTestRunner(stream=fp,title='搜索功能测试',description='用例执行情况')
     runner.run(testunit)
