@@ -17,7 +17,7 @@ if __name__=='__main__':
     suite.addTest(MyTest3("test_baidu"))
     suite.addTest(MyTest4("test_baidu"))
     #suite.addTest(test_project.testcase.test_youdao.MyTest("test_youdao"))
-    fp=open('D:\\eclipse\\eclipse-workspace\\unittestdemo4\\test_project\\report\\result.html','wb')
+    fp=open('./report/result.html','wb')
     runner=HTMLTestRunner(stream=fp,title='百度搜索测试报告',description='用例执行情况：')
     #runner=unittest.TextTestRunner()
     runner.run(suite)
