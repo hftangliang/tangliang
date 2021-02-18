@@ -1,5 +1,6 @@
 #coding:utf-8
 import unittest
+import time
 from testcase.test_baidu import MyTest
 from testcase.test_baidu2 import MyTest2
 from testcase.test_baidu3 import MyTest3
@@ -17,7 +18,8 @@ if __name__=='__main__':
     suite.addTest(MyTest3("test_baidu"))
     suite.addTest(MyTest4("test_baidu"))
     #suite.addTest(test_project.testcase.test_youdao.MyTest("test_youdao"))
-    fp=open('./report/result.html','wb')
+    now=time.strftime("%Y-%m-%d %H_%M_%S")
+    fp=open('./report/'+now+'result.html','wb')
     runner=HTMLTestRunner(stream=fp,title='百度搜索测试报告',description='用例执行情况：')
     #runner=unittest.TextTestRunner()
     runner.run(suite)
